@@ -1,4 +1,4 @@
 comp:
-	gcc Main.c DeleteSight.c NewSight.c PoiskName.c PoiskRayon.c PoiskTime.c Read.c Menu.c Redakt.c Vvod.c Zapis.c -o Run
+	gcc main.cpp menu.cpp -o Run
 use:
 	./Run
