@@ -1,4 +1,4 @@
 comp:
-	gcc main.cpp menu.cpp -o Run
+	g++ main.cpp func.cpp -o Run
 use:
 	./Run
