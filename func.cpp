@@ -133,5 +133,6 @@ void List::delete_sight(sight* a){
 		if (help->next) 
 			help->next->up = help->up;
 	}	
+	delete help;
 	return;
 }

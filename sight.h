@@ -142,10 +142,11 @@ public:
 	}
 	~List(){
 		sight* tmp;
-		head = tmp;
+		tmp = head;
 		while(tmp != nullptr){
 			sight* t = tmp;
 			tmp= t->next;
+		delete t;
 		}
 	}
 	void redakt(sight* h);
